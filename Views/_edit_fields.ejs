@@ -1,0 +1,27 @@
+<div class="form-group mt-3">
+    <label for="title">Title</label>
+    <input required type="text" class="form-control mt-2" name="title" id="title" value="<%= title%>">
+</div>
+
+<div class="form-group mt-3">
+    <label for="date">Date</label>
+    <input required type="date" class="form-control mt-2" name="date" id="date" value="<%= date%>">
+</div>
+
+<div class="form-group mt-3">
+    <label for="time">Time</label>
+    <input required type="time" class="form-control mt-2" name="time" id="time" value="<%= time%>">
+</div>
+
+<div class="form-group mt-3">
+    <label for="description">Description</label>
+    <input required type="description" class="form-control mt-2" name="description" id="description" value="<%= desc%>">
+</div>
+
+<div class="form-group mt-3">
+    <label for="post">Insert Post</label>
+    <textarea required name="post" class="form-control mt-2" id="post"><%= post%></textarea>
+</div>
+
+<a href="/articles" class="btn mt-3 btn-secondary">Cancel</a>
+<button type="submit" class="btn mt-3 btn-primary">Update</button>
